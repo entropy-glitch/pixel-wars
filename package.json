@@ -1,0 +1,71 @@
+{
+  "name": "pixel-wars",
+  "displayName": "Pixel Wars - Theme",
+  "icon": "artworks/logo.png",
+  "description": "Transform your coding environment into a galactic saga with Pixel Wars. Embrace the shades of Darth Invader, Luke Skywriter and Storm Tracker as you traverse through the code cosmos.",
+  "version": "1.0.0",
+  "publisher": "Dutchorange",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/entropy-glitch/pixel-wars.git"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "license": "MIT",
+  "releaseNotes": [
+    {
+      "version": "1.0.0",
+      "date": "2024-10-01",
+      "notes": [
+        "Production release"
+      ]
+    }
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark theme",
+    "star wars",
+    "lightsaber",
+    "force",
+    "darth",
+    "vader",
+    "skywalker",
+    "storm trooper",
+    "galactic",
+    "retro",
+    "quality",
+    "professional",
+    "multi",
+    "bundle",
+    "space",
+    "cosmos",
+    "saga",
+    "pixel",
+    "art",
+    "minimal",
+    "galactic",
+    "glow"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PixelWars - Darth Invader",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darth-invader-color-theme.json"
+      },
+      {
+        "label": "PixelWars - Luke Skywriter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luke-skywriter-color-theme.json"
+      },
+      {
+        "label": "PixelWars - Storm Tracker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/storm-tracker-color-theme.json"
+      }
+    ]
+  }
+}
